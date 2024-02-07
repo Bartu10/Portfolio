@@ -1,11 +1,14 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
 import "../scss/header.scss"
 
 const Header = () => {
+  
   return (
     <div className="Header">
-      <span>About Me</span>
-      <span>Proyects</span>
-      <span>Contact</span>
+      <NavLink to="/" >About</NavLink>
+      <NavLink to="/projects">Projects</NavLink>
+      <NavLink to="/contact" >Contact</NavLink>
     </div>
   );
 }

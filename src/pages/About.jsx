@@ -1,8 +1,11 @@
+
+import image from "../pictures/giphy.gif"  
+
 const About = () =>{
   return (
     <div className="About">
       <header className="About-header">
-      <img src="../pictures/giphy.gif"/>
+      <img src={image}/>
       </header>
     </div>
   );
