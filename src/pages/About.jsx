@@ -1,11 +1,14 @@
 
-import image from "../pictures/giphy.gif"  
+import image from '../pictures/giphy.gif'  
 
 const About = () =>{
   return (
-    <div className="About">
-      <header className="About-header">
+    <div className='About'>
+      <header className='About-header'>
       <img src={image}/>
+      <h1 class="text-3xl font-bold underline">
+      Hello world!
+      </h1>
       </header>
     </div>
   );

@@ -1,17 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.scss';
-import { router } from './router/router';
-import { RouterProvider } from 'react-router-dom';
-import Header from './components/Header';
+import React, { useContext, useState } from "react";
+import ReactDOM from "react-dom/client";
+import { router } from "./router";
+import { RouterProvider } from "react-router-dom";
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Header />
     <RouterProvider router={router}>
     </RouterProvider>
   </React.StrictMode>
 );
-

@@ -1,16 +1,22 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import "../scss/header.scss"
+import React from 'react'
+import '../scss/header.scss'
+import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
-  
   return (
-    <div className="Header">
-      <NavLink to="/" >About</NavLink>
-      <NavLink to="/projects">Projects</NavLink>
-      <NavLink to="/contact" >Contact</NavLink>
+    <div className='Header'>
+      <NavLink to="/" exact activeClassName="active">
+        About
+      </NavLink>
+      <NavLink to="/project" activeClassName="active">
+        Project
+      </NavLink>
+      <NavLink to="/contact" activeClassName="active">
+        Contact
+      </NavLink>
+
     </div>
   );
-}
+};
+export default Header
 
-export default Header;
