@@ -9,7 +9,7 @@ const Header = () => {
         About
       </NavLink>
       <NavLink to="/project" activeClassName="active">
-        Project
+        Projects
       </NavLink>
       <NavLink to="/contact" activeClassName="active">
         Contact

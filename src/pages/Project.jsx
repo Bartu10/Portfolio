@@ -1,6 +1,7 @@
 
 import imagenTimeless from '../pictures/Timeless11.png';
 import imagenConserGPT from '../pictures/consergpt.jpg';
+import imagenTemploAjedrez from '../pictures/TemploDelAjedrez.png'; 
 import react from '../pictures/react.png';
 import vue from '../pictures/vue.png';
 import spring from '../pictures/springboot.png';
@@ -8,6 +9,9 @@ import node from '../pictures/node.png';
 import python from '../pictures/python.png';
 import mixtral from '../pictures/mixtral.png';
 import langchain from '../pictures/langchain.png';
+import sass from '../pictures/sass.png';
+import "../scss/proyect.scss"
+
 
 const Project = () => {
 
@@ -28,12 +32,12 @@ const Project = () => {
                   <div class="font-bold text-lg pb-3 border-b border-slate-300">
                     <a href="https://play.tailwindcss.com/TGny89rOkl?layout=horizontal">Timeless 11</a>
                     <div className='flex justify-center'></div>
-                    <button class="middle none center mr-3 rounded-lg border hover:bg-gray-500/10 border-gray-500 py-1 px-6 font-sans text-xs font-bold uppercase text-gray-500 transition-all hover:opacity-75 focus:ring focus:ring-gray-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-dark="true">
+                    <a href="https://github.com/Bartu10/TFG_JavierBartusGomez" class="middle none center mr-3 rounded-lg border hover:bg-gray-500/10 border-gray-500 py-1 px-6 font-sans text-xs font-bold uppercase text-gray-500 transition-all hover:opacity-75 focus:ring focus:ring-gray-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-dark="true">
                     Code
-                    </button>
-                    <button class="middle none center mr-3 rounded-lg border hover:bg-emerald-500/10 border-emerald-500 py-1 px-6 font-sans text-xs font-bold uppercase text-emerald-500 transition-all hover:opacity-75 focus:ring focus:ring-emerald-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-dark="true">
+                    </a>
+                    <a href="https://timeless11.netlify.app" class="middle none center mr-3 rounded-lg border hover:bg-emerald-500/10 border-emerald-500 py-1 px-6 font-sans text-xs font-bold uppercase text-emerald-500 transition-all hover:opacity-75 focus:ring focus:ring-emerald-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-dark="true">
                     Deployment
-                    </button>  
+                    </a>  
                     </div>
                     <div>
                         <span>Descripcion de proyecto</span>
@@ -60,35 +64,31 @@ const Project = () => {
               </div>
       
               <div class="bg-white w-1/3 shadow rounded-lg overflow-hidden">
-                <img src={imagenTimeless} class="object-cover h-52 w-full" alt="" />
+                <img src={imagenTemploAjedrez} class="object-cover h-52 w-full" alt="" />
                 <div class="p-6">
                   <span class="block text-slate-400 font-semibold text-sm">Last Actualization: LLAMADA A API </span>
                   <div class="font-bold text-lg pb-3 border-b border-slate-300">
-                    <a href="https://play.tailwindcss.com/TGny89rOkl?layout=horizontal">Timeless 11</a>
+                    <a href="https://play.tailwindcss.com/TGny89rOkl?layout=horizontal">Templo del Ajedrez</a>
                     <div className='flex justify-center'></div>
-                    <button class="middle none center mr-3 rounded-lg border hover:bg-gray-500/10 border-gray-500 py-1 px-6 font-sans text-xs font-bold uppercase text-gray-500 transition-all hover:opacity-75 focus:ring focus:ring-gray-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-dark="true">
+                    <a href="https://github.com/Bartu10/ProyectoReact" class="middle none center mr-3 rounded-lg border hover:bg-gray-500/10 border-gray-500 py-1 px-6 font-sans text-xs font-bold uppercase text-gray-500 transition-all hover:opacity-75 focus:ring focus:ring-gray-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-dark="true">
                     Code
-                    </button>
-                    <button class="middle none center mr-3 rounded-lg border hover:bg-emerald-500/10 border-emerald-500 py-1 px-6 font-sans text-xs font-bold uppercase text-emerald-500 transition-all hover:opacity-75 focus:ring focus:ring-emerald-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-dark="true">
+                    </a>
+                    <a href="https://timeless11.https://reactjavierbartus.netlify.app.app" class="middle none center mr-3 rounded-lg border hover:bg-emerald-500/10 border-emerald-500 py-1 px-6 font-sans text-xs font-bold uppercase text-emerald-500 transition-all hover:opacity-75 focus:ring focus:ring-emerald-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-dark="true">
                     Deployment
-                    </button>  
+                    </a>
                     </div>
                   <div class="flex mt-4 gap-4 items-center ">
                     <span class="bg-blue-200 text-blue-600 py-1 px-3 rounded-full text-xs">Web</span>
                     <span class="bg-purple-200 text-purple-600 py-1 px-3 rounded-full text-xs">Active</span>                    
                   </div>
                   <div class="flex mt-4 gap-4 items-center ">
-                  <div class="bg-green-200 text-green-600 py-1 px-3 rounded-full text-xs flex items-center">
-                    <span>Vue</span>
-                    <img src={vue} className='ml-1 h-4 w-4'/> 
+                  <div class="bg-blue-200 text-blue-600 py-1 px-3 rounded-full text-xs flex items-center">
+                    <span>React</span>
+                    <img src={react} className='ml-1 h-4 w-4'/> 
                     </div>
-                    <div class="bg-green-200 text-green-600 py-1 pl-2 pr-3 rounded-full text-xs flex items-center">
-                    <span>Spring</span>
-                    <img src={spring} className='ml-0.5 h-4 w-4'/> 
-                    </div>
-                    <div class="bg-green-200 text-green-600 py-1 pl-2 pr-3 rounded-full text-xs flex items-center">
-                    <span>Node</span>
-                    <img src={node} className='ml-0.5 h-4 w-4'/> 
+                    <div class="bg-pink-200 text-pink-600 py-1 pl-2 pr-3 rounded-full text-xs flex items-center">
+                    <span>Sass</span>
+                    <img src={sass} className='ml-0.5 h-4 w-4'/> 
                     </div>
                     </div>
                 </div>
@@ -101,12 +101,12 @@ const Project = () => {
                   <div class="font-bold text-lg pb-3 border-b border-slate-300">
                     <a href="https://play.tailwindcss.com/TGny89rOkl?layout=horizontal">ConserGPT</a>
                     <div className='flex justify-center'></div>
-                    <button class="middle none center mr-3 rounded-lg border hover:bg-gray-500/10 border-gray-500 py-1 px-6 font-sans text-xs font-bold uppercase text-gray-500 transition-all hover:opacity-75 focus:ring focus:ring-gray-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-dark="true">
+                    <a href="https://github.com/Bartu10/TFG_JavierBartusGomez" class="middle none center mr-3 rounded-lg border hover:bg-gray-500/10 border-gray-500 py-1 px-6 font-sans text-xs font-bold uppercase text-gray-500 transition-all hover:opacity-75 focus:ring focus:ring-gray-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-dark="true">
                     Code
-                    </button>
-                    <button class="middle none center mr-3 rounded-lg border hover:bg-emerald-500/10 border-emerald-500 py-1 px-6 font-sans text-xs font-bold uppercase text-emerald-500 transition-all hover:opacity-75 focus:ring focus:ring-emerald-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-dark="true">
+                    </a>
+                    <a href="https://timeless11.netlify.app" class="middle none center mr-3 rounded-lg border hover:bg-emerald-500/10 border-emerald-500 py-1 px-6 font-sans text-xs font-bold uppercase text-emerald-500 transition-all hover:opacity-75 focus:ring focus:ring-emerald-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-dark="true">
                     Deployment
-                    </button>  
+                    </a>
                     </div>
                   <div class="flex mt-4 gap-4 items-center ">
                     <span class="bg-yellow-200 text-yellow-600 py-1 px-3 rounded-full text-xs">IA</span>

@@ -1,18 +1,28 @@
 @import "./imports.scss"; 
+@font-face {
+    font-family: 'RoundBold';
+    src: url('../fonts/Typo_Round_Bold_Demo.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 .Header{
-    background-color: deepskyblue;
+    font-family: RoundBold;
+    background-color: #004b6b;
     height: 80px;
     display: flex;
     justify-content: space-around;
     .active{
-        background-color: black;
+        color: white
     }
     
     a{
         margin-top: 20px;
-        color: white;
+        color: #70bbdb;
         font-size:xx-large;
         text-decoration: none;
     }
+    
 }
 
